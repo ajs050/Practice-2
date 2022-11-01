@@ -18,7 +18,7 @@ h1 {
 }
 p {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
     color: #7C8BA1;
 }
@@ -190,6 +190,7 @@ header {
     max-width: 50%;
     margin: 0 auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 .features {
     width: 100%;
@@ -210,6 +211,7 @@ header {
 
 .feature__para {
     text-align: left;
+    font-size: 16px;
     
 }
  .feature__logo {
@@ -278,10 +280,46 @@ header {
     padding-left: 20px;
 }
 .info__para {
-    width: 100%;
+    font-size: 16px;
 }
 .step__num {
     margin-right: 20px;
     font-size: 34px;
     opacity: 0.8;
+}
+/* VALUES */ 
+.value__list {
+    width: 100%;
+    margin: 18px 0;
+    padding: 0 8px;
+    display: flex;
+}
+.value__list-title {
+    text-align: left;
+    padding-left: 8px;
+}
+.value {
+    width: 50%;
+    padding: 8px;
+}
+.values__pack {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.value__logo {
+    padding: 8px 12px;
+    border: 1px solid gray;
+    background-color: #9AE6B4;
+    color: rgb(35, 38, 39);
+    border-radius: 30px;
+    border: none;
+}
+.value__logo-2 {
+    padding: 9px 10px;
+    border: 1px solid rgb(177, 30, 30);
+    background-color: #e87676;
+    color: rgb(35, 38, 39);
+    border-radius: 30px;
+    border: none;
 }
