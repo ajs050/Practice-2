@@ -28,6 +28,12 @@ p {
     margin: 0 auto;
     padding: 20px 4px;
 }
+.row--pricing {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 4px;
+}
 .row--about {
     width: 100%;
     max-width: 900px;
@@ -328,13 +334,14 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 .plan {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: calc(100% / 3);
+    width: 30%;
     border: 3px solid rgb(243, 238, 238);
     border-radius: 5px;
     margin: 8px;
@@ -355,6 +362,7 @@ header {
 }
 .plan__price {
     font-size: 48px;
+    color: black;
 }
 .plan__sub--title {
     font-size: 16px;
@@ -369,7 +377,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
+    padding: 15px 0;
     border: 1px solid rgb(218, 211, 211);
     width: 100%;
     border-radius: 3px;
@@ -385,6 +393,65 @@ header {
     padding: 20px 55px;
     border-radius: 30px;
     font-size: 18px;
-    background-color:#34e4c1;
+    background-color:#23bd9e;
     color: white;
+}
+.plan__buisness {
+    background-color: rgb(100, 21, 255)
+}
+.business__white {
+    color: white;
+}
+.no__color {
+    border-top: 0px solid #34e4c1;
+}
+.red__btn {
+    background-color: rgb(245, 101, 101);
+}
+.plan__color{
+    border-top: 8px solid rgb(245, 101, 101);
+}
+.buisness__btn {
+    background-color: white;
+    color: rgb(100, 21, 255);
+}
+/* LAST SECTION */
+#section__last {
+    height: 100%;
+    background-color: rgb(100, 21, 255);
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 85%;
+    padding: 80px 0;
+}
+.last__btns {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.last__title {
+    font-size: 30px;
+    color: #F7FAFC;
+    width: 50%;
+}
+.last__info {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.last__btn--one {
+    padding: 20px 35px;
+}
+.last__btn--two {
+    padding: 20px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color:#23bd9e;
+    color: white;
+}
+/* FOOTER */
+footer {
+    background-color: rgb(100, 21, 255);;
 }
