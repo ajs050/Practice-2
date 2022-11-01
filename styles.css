@@ -323,3 +323,68 @@ header {
     border-radius: 30px;
     border: none;
 }
+/* PLANS */
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 3);
+    border: 3px solid rgb(243, 238, 238);
+    border-radius: 5px;
+    margin: 8px;
+}
+.plan__info--top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-top: 8px solid #34e4c1;
+    border-radius: 2px;
+    width: 100%;
+}
+.plan__title {
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+.plan__price {
+    font-size: 48px;
+}
+.plan__sub--title {
+    font-size: 16px;
+}
+.plan__para {
+    padding: 12px 0;
+    font-size: 18px;
+    color: #718096;
+}
+.plan__info--middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border: 1px solid rgb(218, 211, 211);
+    width: 100%;
+    border-radius: 3px;
+}
+.plan__info--bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.plan__btn {
+    padding: 20px 55px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color:#34e4c1;
+    color: white;
+}
