@@ -10,6 +10,7 @@
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </head>
 
   <body>
@@ -31,6 +32,39 @@
             <a href="#" class="nav__link">Contact Us</a>
             <a href="#" class="nav__link nav__link--log">Login</a>
             <a href="#" class="nav__link--primary">Sign Up</a>
+          </div>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link" onclick="closeMenu()"
+                  >Blog</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link no-cursor" onclick="closeMenu()"
+                  >Contact us</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link no-cursor" onclick="closeMenu()"
+                  >Login</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="menu__link no-cursor" onclick="closeMenu()"
+                  ><a href="#" class="nav__link--primary">Sign Up</a></a
+                >
+              </li>
+            </ul>
           </div>
         </nav>
       </div>
@@ -381,7 +415,7 @@
       </div>
     </section>
 
-    <div class="container">
+    <div class="container-last">
     <section id="section__last">
         <div class="row">
           <div class="last__info">
@@ -398,7 +432,60 @@
     <footer>
       <div class="container">
         <div class="row">
-
+          <div class="footer__list">
+            <div class="footer__links">
+              <h3 class="footer__title color__white">Main</h3>
+              <a class="footer__link color__white" href="">Blog</a>
+              <a class="footer__link color__white" href="">FAQs</a>
+              <a class="footer__link color__white" href="">Support</a>
+              <a class="footer__link color__white" href="">About Us</a>
+            </div>
+            <div class="footer__links">
+              <h3 class="footer__title color__white">Product</h3>
+              <a class="footer__link color__white" href="">Log in</a>
+              <a class="footer__link color__white" href="">Personal</a>
+              <a class="footer__link color__white" href="">Business</a>
+              <a class="footer__link color__white" href="">Team</a>
+            </div>
+            <div class="footer__links">
+              <h3 class="footer__title color__white">Press</h3>
+              <a class="footer__link color__white" href="">Logos</a>
+              <a class="footer__link color__white" href="">Events</a>
+              <a class="footer__link color__white" href="">Stories</a>
+              <a class="footer__link color__white" href="">Office</a>
+            </div>
+            <div class="footer__links">
+              <h3 class="footer__title color__white">Team</h3>
+              <a class="footer__link color__white" href="">Career</a>
+              <a class="footer__link color__white" href="">Founders</a>
+              <a class="footer__link color__white" href="">Culture</a>
+              <a class="footer__link color__white" href="">Onboarding</a>
+            </div>
+            <div class="footer__links">
+              <h3 class="footer__title color__white">Legal</h3>
+              <a class="footer__link color__white" href="">GDPR</a>
+              <a class="footer__link color__white" href="">Privacy Policy</a>
+              <a class="footer__link color__white" href="">Terms of Service</a>
+              <a class="footer__link color__white" href="">Disclaimer</a>
+            </div>
+            <hr class="footer__line">
+          </div>
+          <div class="footer__end">
+            <div class="footer__logo">
+              <img
+                src="PPP Assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg"
+                class="personal__img footer_img"
+                alt=""
+              />
+              <h2 class="personal__logo--name color__white">Treact Inc.</h2>
+            </div>
+            <p class="footer__copright color__white">© 2022 Treact Inc. All Rights Reserved.</p>
+            <div class="footer__btns">
+              <button class="footer__btn"><i class="fab fa-twitter"></i></button>
+              <button class="footer__btn"><i class="fab fa-facebook"></i></button>
+              <button class="footer__btn"><i class="fab fa-youtube"></i></button>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
